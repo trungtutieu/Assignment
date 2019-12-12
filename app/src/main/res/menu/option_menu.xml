@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_quanlykhoanchi"
+        android:title="Quản Lý Chi Tiêu">
+        <menu>
+            <item android:id="@+id/menu_khoanchi"
+                android:title="Danh Sách Khoản Chi"/>
+            <item android:id="@+id/menu_themloaichi"
+                android:title="Thêm Loại Chi" />
+            <item android:id="@+id/menu_themkhoanchi"
+                android:title="Thêm Khoản Chi" />
+        </menu>
+    </item>
+
+    <item android:id="@+id/menu_quanlykhoanthu"
+        android:title="Quản Lý Thu Nhập">
+        <menu>
+            <item android:id="@+id/menu_khoanthu"
+                android:title="Khoản Thu"/>
+            <item android:id="@+id/menu_themloaithu"
+                android:title="Thêm Loại Thu" />
+            <item android:id="@+id/menu_themkhoanthu"
+                android:title="Thêm Khoản Thu" />
+        </menu>
+    </item>
+    <item android:id="@+id/menu_thongke"
+        android:title="Thống Kê"/>
+    <item android:id="@+id/menu_gioithieu"
+        android:title="Giới Thiệu"/>
+    <item android:id="@+id/menu_thoat"
+        android:title="Thoát"/>
+
+</menu>
